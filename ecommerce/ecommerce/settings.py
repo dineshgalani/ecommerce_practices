@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'product',
     'orm',
     'cbv',
-    'task'
+    'task',
+    'ticket'
 ]
 
 MIDDLEWARE = [

@@ -4,7 +4,7 @@ from django.db import models
 
 class task(models.Model):
     task_name = models.CharField(max_length=200)
-    task_desctription = models.TextField()
+    task_description = models.TextField()
 
     class Meta:
         db_table = 'task'
