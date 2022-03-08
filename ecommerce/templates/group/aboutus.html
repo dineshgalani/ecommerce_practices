@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends 'group/base.html' %}
+{% block content %}   
+    <h1>about us called.... of group</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas autem explicabo iure esse ducimus error cum corrupti vero magni quidem fuga voluptate, quia, voluptas quibusdam voluptatem? Dignissimos molestias explicabo laborum.</p>
+    {% if isActive%}
+        <h1> isActive is true </h1>
+        {% else %}
+            <h1> isActive is false</h1>
+    {% endif %}
+    {{age}}
+    {% if age > 18 %}
+        <h1>candidate is eligible..... </h1>
+        {% else %}
+            <p> candidate is not eligile.....</p>
+    {% endif %}
+{% endblock content %} 
